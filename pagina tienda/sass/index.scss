@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import "normalize";
+@import "variables";
+@import "mixis";
+@import "globales";
+@import "header";
+@import "navegacion";
+
+//INDEX
+@import "grid";
+@import "producto";
+
+//NOSOTROS
+@import "nosotros";
+@import "nosotros-bloques";
+
+//PRODUCTO
+@import "paginaproducto";
+
+@import "footer";

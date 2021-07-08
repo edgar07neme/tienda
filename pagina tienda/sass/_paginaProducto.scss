@@ -1,0 +1,46 @@
+.formulario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  &__campo {
+    border: {
+      color: $primarioOscuro;
+      width: 1rem;
+      style: solid;
+    }
+    background-color: transparent;
+    color: $blanco;
+    font: {
+      size: 2rem;
+      family: $parrafos;
+    }
+    padding: 1rem;
+    appearance: none;
+    option {
+      color: $negro;
+    }
+  }
+  &__submit {
+    background-color: $segundario;
+    border: none;
+    font: {
+      size: 2rem;
+      family: $principal;
+    }
+    padding: 2rem;
+    transition: background-color 0.3s ease;
+    grid-column: 1/3;
+    &:hover {
+      cursor: pointer;
+      background-color: $secundarioOscuro;
+    }
+  }
+}
+
+@media (min-width: 780px) {
+  .camisa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}

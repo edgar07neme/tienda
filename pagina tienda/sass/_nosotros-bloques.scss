@@ -1,0 +1,21 @@
+.bloques {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.bloque {
+  text-align: center;
+  &__imagen {
+    width: 100%;
+  }
+  &__titulo {
+    margin: 0;
+  }
+}
+
+@media (min-width: 780px) {
+  .bloques {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
